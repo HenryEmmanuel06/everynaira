@@ -48,6 +48,9 @@ body {
     position: relative;
     left: -10px;
 }
+.logo img, .logo_footer img{
+    width: 188px;
+}
 
 .hero_header {
     font-size: 38px;
@@ -372,7 +375,9 @@ body.modal_open {
     padding: 25px 18px;
     outline: none;
 }
-
+.modal_input ::placeholder{
+    color: red;
+}
 .modal_submit {
     margin-top: 50px;
     height: 40px;
