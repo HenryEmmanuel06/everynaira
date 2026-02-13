@@ -51,6 +51,9 @@ body {
 .logo img, .logo_footer img{
     width: 188px;
 }
+.base img{
+    width: 146px;
+}
 
 .hero_header {
     font-size: 38px;
