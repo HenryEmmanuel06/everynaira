@@ -301,7 +301,7 @@ body.modal_open {
 
 .modal_card {
     background: #fff;
-    border-radius: 12px;
+    border-radius: 20px;
     width: min(1020px, 100%);
     max-height: calc(100vh - 60px);
     overflow: auto;
@@ -309,16 +309,16 @@ body.modal_open {
 }
 
 .modal_close {
-    position: absolute;
-    top: 12px;
-    right: 12px;
-    width: 32px;
-    height: 32px;
+      position: absolute;
+    top: 24px;
+    right: 42px;
+    width: 38px;
+    height: 38px;
     border-radius: 50%;
     border: none;
-    background: #E84C4F;
+    background: #ED2024;
     color: #fff;
-    font-size: 20px;
+    font-size: 32px;
     line-height: 32px;
 }
 
@@ -352,6 +352,10 @@ body.modal_open {
     line-height: 20px;
     max-width: 300px;
     margin-top: 20px;
+    color: #3F4E61;
+}
+.modal_subtitle span {
+font-weight: 700;
 }
 
 .modal_form_title {
@@ -372,25 +376,24 @@ body.modal_open {
 .modal_input {
     width: 100%;
     height: 40px;
-    border-radius: 4px;
-    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    border: none;
     background: #F3F3F3;
     padding: 25px 18px;
     outline: none;
 }
-.modal_input ::placeholder{
-    color: red;
-}
+
 .modal_submit {
     margin-top: 50px;
-    height: 40px;
-    width: 100%;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 5px;
     border: none;
-    border-radius: 4px;
     background: #21AA47;
     color: #fff;
-    font-weight: 700;
-    font-size: 12px;
 }
 
 .back_to_top {
